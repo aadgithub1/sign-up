@@ -6,7 +6,7 @@
 
 :root{
     --icon-height: 200px;
-    --subdued-white: rgb(255, 240, 240);
+    --subdued-white: rgb(255, 245, 245);
     --system-normal: Poppins, system-ui;
 }
 
@@ -122,4 +122,12 @@ button:hover {
 
 p{
     font-family: var(--system-normal);
+}
+
+input:user-invalid{
+    border: 2px solid red;
+}
+
+input:user-valid{
+    border: 2px solid green;
 }
