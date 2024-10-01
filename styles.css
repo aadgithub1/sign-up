@@ -134,3 +134,9 @@ input:not(:placeholder-shown):invalid{
 input:not(:placeholder-shown):valid{
     border: 2px solid green;
 }
+
+a{
+    text-decoration: none;
+    color: #328635;
+    font-weight: bold;
+}

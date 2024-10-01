@@ -28,11 +28,11 @@
                 <fieldset id="name-fieldset">
                     <div>
                         <label for="first-name">First Name</label>
-                        <input type="text" name="firstName" id="first-name" pattern="([A-Z]?[a-z]+)" autocomplete="cc-given-name" placeholder="Joe" required>
+                        <input title="Enter a valid name." type="text" name="firstName" id="first-name" pattern="([A-Z]?[a-z]+)" autocomplete="cc-given-name" placeholder="Joe" required>
                     </div>
                     <div>
                         <label for="last-name">Last Name</label>
-                        <input type="text" name="lastName" id="last-name" pattern="([A-Z]?[a-z]+)" autocomplete="cc-family-name" placeholder="DiMaggio" required>
+                        <input title="Enter a valid name." type="text" name="lastName" id="last-name" pattern="([A-Z]?[a-z]+)" autocomplete="cc-family-name" placeholder="DiMaggio" required>
                     </div>
                 </fieldset>
 
@@ -43,7 +43,7 @@
                     </div>
                     <div>
                         <label for="phone-number">Phone Number</label>
-                        <input type="tel" name="phoneNumber" id="phone-number" pattern="[0-9]{3, 4}-?[0-9]{3}-?[0-9]{4}" autocomplete="tel" placeholder="111-222-3333 or 1112223333" required>
+                        <input title="Enter a valid phone number." type="tel" name="phoneNumber" id="phone-number" pattern="[0-9]{3, 4}-?[0-9]{3}-?[0-9]{4}" autocomplete="tel" placeholder="111-222-3333 or 1112223333" required>
                     </div>
                 </fieldset>
 
@@ -61,7 +61,7 @@
 
                 <div id="account-action-div">
                     <button type="submit" id="submit-btn">Create account</button>
-                    <p>Already have an account? <a href="https://google.com"> Log in.</a></p>
+                    <p>Already have an account? <a href="https://google.com" target="_blank"> Log in.</a></p>
                 </div>
             </form>
         </div>
