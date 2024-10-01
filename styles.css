@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&display=swap');
-
-
 
 :root{
     --icon-height: 200px;
@@ -26,17 +23,19 @@ body{
 #hero-div{
     background-image: url(resources/leafy.jpg);
     background-size: cover;
+
     width: 40%;
     height: 100%;
+    padding-top: calc(100vh / 4);
+
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #odin-div{
     background-color:rgba(0, 0, 0, 0.543);
     width: 100%;
-
-    margin-top: calc((100vh - var(--icon-height)) /2);
-    margin-bottom: calc((100vh - var(--icon-height)) /2);
 
     display: flex;
     justify-content: center;
@@ -100,6 +99,10 @@ input{
 input{
     border: 1px solid rgba(127, 124, 124, 0.318);
     border-radius: 5px;
+}
+
+#account-action-div{
+    margin-top: 3%;
 }
 
 button {
