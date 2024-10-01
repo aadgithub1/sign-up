@@ -28,29 +28,29 @@
                 <fieldset id="name-fieldset">
                     <div>
                         <label for="first-name">First Name</label>
-                        <input type="text" name="firstName" id="first-name" pattern="([A-Z]?[a-z]+)" required>
+                        <input type="text" name="firstName" id="first-name" pattern="([A-Z]?[a-z]+)" autocomplete="cc-given-name" required>
                     </div>
                     <div>
                         <label for="last-name">Last Name</label>
-                        <input type="text" name="lastName" id="last-name" pattern="([A-Z]?[a-z]+)" required>
+                        <input type="text" name="lastName" id="last-name" pattern="([A-Z]?[a-z]+)" autocomplete="cc-family-name" required>
                     </div>
                 </fieldset>
 
                 <fieldset id="contact-fieldset">
                     <div>
                         <label for="email">Email</label>
-                        <input title="Please enter a valid email address." type="email" name="email" id="email" pattern="[A-Za-z0-9!-&]+@[A-Za-z0-9]+\.[a-z]{2,}" required>
+                        <input title="Please enter a valid email address." type="email" name="email" id="email" pattern="[A-Za-z0-9!-&]+@[A-Za-z0-9]+\.[a-z]{2,}" autocomplete="email" required>
                     </div>
                     <div>
                         <label for="phone-number">Phone Number</label>
-                        <input type="text" name="phoneNumber" id="phone-number" pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}" required>
+                        <input type="tel" name="phoneNumber" id="phone-number" pattern="[0-9]{3, 4}-?[0-9]{3}-?[0-9]{4}" autocomplete="tel" required>
                     </div>
                 </fieldset>
 
                 <fieldset id="password-fieldset">
                     <div>
                         <label for="password">Password</label>
-                        <input title="Please enter a password 6-18 characters." type="password" name="password" id="password" minlength="6" maxlength="18" required>
+                        <input title="Please enter a password 6-18 characters." type="password" name="password" id="password" minlength="6" maxlength="18" autocomplete="new-password" required>
                         <p id="hint">6-18 characters</p>
                     </div>
                     <div>
