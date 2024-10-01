@@ -127,10 +127,10 @@ p{
     font-family: var(--system-normal);
 }
 
-input:user-invalid{
+input:not(:placeholder-shown):invalid{
     border: 2px solid red;
 }
 
-input:user-valid{
+input:not(:placeholder-shown):valid{
     border: 2px solid green;
 }
