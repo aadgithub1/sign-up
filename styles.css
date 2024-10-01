@@ -56,8 +56,7 @@ img{
     flex: 1;
     margin-top: 10%;
     margin-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
 
     display: flex;
     flex-direction: column;
